@@ -1,0 +1,17 @@
+# dependencies
+node_modules/
+
+# build artifacts
+*.tgz
+*.exe
+*.dll
+build/
+obj/
+
+# editor / OS
+.vs/
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+desktop.ini

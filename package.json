@@ -1,0 +1,32 @@
+{
+  "name": "dsh-sw-edit",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Feature-tree editing for SolidWorks (list / suppress / delete / save) as a DeepSeek Harness bundle.",
+  "os": [
+    "win32"
+  ],
+  "exports": {
+    ".": "./index.js",
+    "./package.json": "./package.json"
+  },
+  "files": [
+    "index.js",
+    "driver/Program.cs",
+    "cordis.patch.yml",
+    "README.md"
+  ],
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    }
+  },
+  "keywords": [
+    "dsh",
+    "dsh-plugin",
+    "solidworks",
+    "feature-tree"
+  ],
+  "license": "MIT"
+}
