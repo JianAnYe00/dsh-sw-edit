@@ -28,5 +28,13 @@
     "solidworks",
     "feature-tree"
   ],
+  "homepage": "https://github.com/JianAnYe00/dsh-sw-edit#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JianAnYe00/dsh-sw-edit.git"
+  },
+  "bugs": {
+    "url": "https://github.com/JianAnYe00/dsh-sw-edit/issues"
+  },
   "license": "MIT"
 }

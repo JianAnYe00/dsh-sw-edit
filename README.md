@@ -55,7 +55,7 @@ DSH 现有的大多数 SolidWorks 插件（例如 [`@pan-318/dsh-solidworks`](ht
 **方式 A：从 GitHub 安装（推荐给外部用户）**
 
 ```powershell
-dsh plugin --profile desktop add github:<你的用户名>/dsh-sw-edit
+dsh plugin --profile desktop add github:JianAnYe00/dsh-sw-edit
 ```
 
 **方式 B：从本地目录安装**
@@ -197,7 +197,7 @@ One tool, seven actions: `list`, `info`, `suppress`, `unsuppress`, `delete`, `sa
 ### Install
 
 ```powershell
-dsh plugin --profile desktop add github:<owner>/dsh-sw-edit
+dsh plugin --profile desktop add github:JianAnYe00/dsh-sw-edit
 ```
 
 or from a local folder / tarball (run it in the parent folder of `dsh-sw-edit`):
